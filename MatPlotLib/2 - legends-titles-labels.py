@@ -11,7 +11,7 @@ plt.plot(x1,y1, label = '2nd Line')
 plt.xlabel('X-Axis')
 plt.ylabel('Y-Axis')
 
-plt.title('Graph\nSub-Title')
+plt.title('Graph\nSub-Title') # Title of Graph
 
 plt.legend()
 
