@@ -45,7 +45,7 @@ a = np.ones(5)
 a_torch = torch.from_numpy(a).to(torch.int64)
 print("Torch tensor from Numpy:", a_torch)
 
-# 5. CUDA / GPU MOVEMENT
+# 5. CUDA / GPU MOVEMENT For pc
 if torch.cuda.is_available():
     print("CUDA is available! Moving tensors to GPU...")
     device = torch.device("cuda")
