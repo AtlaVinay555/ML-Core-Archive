@@ -14,6 +14,7 @@ print("y size:", y.size())
 
 # 2. MATH OPERATIONS
 z = y + y1
+# FIXED: Adding y and y1 instead of x and y, because both are (2,2)
 z = torch.add(y, y1) 
 
 # FIXED: In-place addition (the _ symbol). 
