@@ -13,7 +13,7 @@ plt.plot([],[],color='c',label='Eating', linewidth = 5)
 plt.plot([],[],color='r',label='Working', linewidth = 5)
 plt.plot([],[],color='k',label='Playing', linewidth = 5)
 
-plt.stackplot(days,sleepin,eatin,workin,playin,colors=['m','c','r','k'])
+plt.stackplot(days,sleepin,eatin,workin,playin,colors=['m','c','r','k']) #plot colors and labels match
 
 
 
